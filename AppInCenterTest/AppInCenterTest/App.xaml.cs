@@ -23,7 +23,7 @@ namespace AppInCenterTest
     protected override void OnStart()
     {
       // Handle when your app starts
-      AppCenter.Start("android=985cd169-976b-44f7-b8df-ed6f164661e7",
+      AppCenter.Start("android=606ee751-690c-4d8e-86f3-7487f3945632",
                     typeof(Analytics), typeof(Crashes));
       AppCenter.LogLevel = LogLevel.Verbose;
     }
